@@ -3,9 +3,8 @@ require("dotenv").config();
 
 // Import required packages
 const express = require('express');
-const connect = require('./Config/db');
+const connect = require('./config/db');
 const cors = require('cors');
-
 // Set port number
 const PORT = process.env.PORT || 8080;
 
